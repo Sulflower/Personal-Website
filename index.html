@@ -3,65 +3,176 @@
 <head>
     <meta charset="UTF-8">
     <title>Follow me on Soundcloud</title>
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico"/>
     <link rel="stylesheet" href="styles.css">
-<body>
-    
-    <div class = "intro">
-        <!-- Navigation bar -->
-        <div class="nav-wrapper">
-            <!-- left side of navigation bar -->
-            <div class="left_col">
-                <div class="my name">
-                    <h1>Kevin Luong</h1>
-                    <h3>Ex-google, Ex-amazon, Ex-everything Software Engineer Applicant</h3>
+    <link rel="stylesheet" href="css/all.min.css">
+
+<!-- <body style = "background-color: rgba(255, 182, 193, 0.644);" back> -->
+<body style = "background-color: rgba(0, 0, 0, 0.918);" back>
+
+    <!-- Home section  -->
+    <div class="links">
+        <div class="link"> <a href="index.html">Home</a>  </div>
+        <div class="link"> <a href="index.html#target">About</a> </div>
+        <div class="link"> <a href="index.html#target2">Resume</a> </div>
+        <div class="link"> <a href="index.html#target3">Contact</a> </div>
+    </div>
+        <!-- left side of navigation bar -->
+        <div class="intro">
+
+            <div class="my_name">
+                <h1 style="font-size: 120px; font-family: sans-serif; text-shadow: 1px 1px 1px black; color:white">Kevin Luong</h1>
+                <h3 style= "font-family: sans-serif; text-shadow: 1px 1px 1px black; color: white;">Inspiring people with my nonexistent mixtape</h3>
+                <h3 style = "font-family: sans-serif; text-shadow: 1px 1px 1px black; color: white">Ex-google, Ex-amazon, Ex-everything Software Engineer Applicant</h3>
+                <button class="btn" onclick=" window.open('https://www.linkedin.com/in/kcluong/','_blank')"><i class="fab fa-linkedin"></i></button>
+                <button class="btn" onclick=" window.open('https://github.com/Sulflower','_blank')"><i class="fab fa-github"></i></button>
+                <button class="btn" onclick="window.location.href='mailto:kevin.luong4@gmail.com?subject=Message From Website'"><i class="fas fa-envelope"></i></button>
+                <button class="btn" onclick=" window.open('img/Resume2.2.pdf')" ><i class="fas fa-file-pdf"></i></button>
+
+            </div>
+         </div>
+
+    <div class = "apage"> 
+        <div class = "about">
+            <div class = "about_intro">     
+                <h1 style="font-size: 75px; color:salmon; font-family: sans-serif; text-shadow: 1px 1px 1px black;" > <a id = "target"> Who am I? </a> </h1>
+            </div>
+            <div class = par>
+                <div class = "selfie"></div>
+                <div class = "summary">     
+                    <p style="color:white; font-family: sans-serif; text-shadow: 1px 1px 1px black;"> My name is Kevin Luong and I recently finished my undergrad in Computer Science B.S. at the University of California, San Diego. I'm currently looking for a full time opportuntiy as a Software Engineer. I'm fairly comfortable in Java but also have experience in other languages such as C, C++, and Python. I enjoy solving problems and I'm currently teaching myself web development with this website! I have work experience in test automation using Selenium and the ROBOT framework testing APIs and Front/Back end functionalities. </p>
+                </div> 
+            </div>
+            <div class = par2>
+                <div class = "Profile">     
+                    <h1 style="font-size: 20px; color:salmon; font-family: sans-serif; text-shadow: 1px 1px 1px black;">Profile</h1>
+                    <p style ="font-family: sans-serif; text-shadow: 1px 1px 1px black; color: white;"> I'm currently looking for a full time position as Software Engineer in the San Diego area. If you think I may be a good fit for your company feel free to reach out to me at <a href = "mailto: kevin.luong4@gmail.com" style: col> kevin.luong4@gmail.com. </a></p>
+                    <p style ="font-family: sans-serif; text-shadow: 1px 1px 1px black; color: white;"> Full Name: Kevin Luong</p>
+                    <p style ="font-family: sans-serif; text-shadow: 1px 1px 1px black; color: white;"> School: University of California, San Diego Computer Science B.S. 2021</p>
+
+                </div>
+
+                <div class = "skills">     
+                    <h1 style="font-size: 20px;  color:salmon; font-family: sans-serif; text-shadow: 1px 1px 1px black;">Skills</h1>
+                    <p style= "font-family: sans-serif; text-shadow: 1px 1px 1px black; color: white;"> I am fairly comfortable writing code in Java but also have experience in other languages such as C, C++, and Python. I enjoy solving problems and I'm currently teaching myself web development with this website! I have work experience in test automation using Python, Selenium, and the ROBOT framework testing APIs and Front/Back end functionalities. </p>
+                </div>
+                <div class = "hob">     
+                    <h1 style="font-size: 20px;  color:salmon; font-family: sans-serif; text-shadow: 1px 1px 1px black;">Hobbies</h1>
+                    <p style ="font-family: sans-serif; text-shadow: 1px 1px 1px black; color: white;"> Pre-covid I enjoyed going out and playing Badminton but now a days I play games, watch anime, and getting fat during my free time. The latest Attack on Titan Season 3 is a banger.</p>
                 </div>
             </div>
-
-            <!-- right side of navigation bar -->
-            <div class="right_col">
-                <div class="link"> <a href="index.html">Home</a>  </div>
-                <div class="link"> <a href="about.html">About</a> </div>
+            <div class = "socPar">
+                <div class = "res"> 
+                    <h1 style = "color:salmon; font-family: sans-serif; text-shadow: 1px 1px 1px black;" > Resume</h1>
+                    <button class="btn1" onclick=" window.open('img/Resume2.2.pdf')" ><i class="fas fa-file-pdf"></i></button>
+                </div>
+                <div class = "hir">
+                    <h1 style = "color:salmon; font-family: sans-serif; text-shadow: 1px 1px 1px black;" > Email </h1>
+                    <button class="btn1" onclick="window.location.href='mailto:kevin.luong4@gmail.com?subject=Message From Website'"><i class="fas fa-envelope"></i></button>
+                </div>
             </div>
+        </div> 
+    </div>
+    <div class = "resume">
+        <div class = "res_title">     
+            <h1 style="font-size: 75px; color: rgba(0, 0, 0, 0.904)"> <a id = "target2"> What I've done so far </a> </h1>
+        </div>
+        <div class = "work_exp">
+            <h1 style = "color: black" > Work Experience</h1>
+        </div>
+        <div class = one>
+            <p class = list style="text-align:left; padding: 1cm; font-size: 2em; margin: 0; padding-top: 10px; padding-bottom: 0;">
+                Memcomputing Inc. <span style = "color: salmon; padding-left: 1.5em;"> Python | ROBOT Framework | Selenium</span>
+                <span style="float:right;">
+                    July 2020 - September 2020
+                </span>
+            </p>
+            <hr style = "margin-top: 0; margin-left: 2em; margin-right: 2em;">
+            <p style = "font-size: 2em; margin: 0; padding-left: 2.2em;"> - Used Python with the ROBOT framework and Selenium to write automated test scripts for APIs and Frontend functionalities.</p>
+            <p style = "font-size: 2em; margin: 0; padding-left: 2.2em;"> - Followed Agile development and gave monthly demos.</p>
+            <p style = "font-size: 2em; margin: 0; padding-left: 2.2em;"> - Utilized Confluence and Jira to document bugs and write test scripts.</p>
+        </div> 
+        <div class = "project" style="padding-top: 10px;"> 
+            <h1 style = "color: black" > Project/Labs </h1>
+        </div>
+        <div class = Two>
+            <p class = list style="text-align:left; padding: 1cm; font-size: 2em; margin: 0; padding-top: 10px; padding-bottom: 0;">
+                Personal Website <span style = "padding-left: 2.8em; color: salmon;"> HTML | CSS</span> 
+                <span style="float:right;">
+                    September 2021
+                </span>
+            </p>
+            <hr style = "margin-top: 0; margin-left: 2em; margin-right: 2em;">
+            <p style = "font-size: 2em; margin: 0; padding-left: 2.2em;"> - I wanted to make a website so I taught myself how with HTML and CSS using this website!</p>
+            <p style = "font-size: 2em; margin: 0; padding-left: 2.2em;"> - Styling and formating is done with basic CSS formatting such as flex-box.</p>
+            <!-- <p style = "font-size: 2em; margin: 0; padding-left: 2.2em;"> - Deployed with GitHub Pages.</p> -->
+        </div> 
+        <div class = Three>
+            <p class = list style="text-align:left; padding: 1cm; font-size: 2em; margin: 0; padding-top: 10px; padding-bottom: 0;">
+                Cooking with Crumbs <span style = "padding-left: 1em; color: salmon;"> JavaScript | NodeJS | MongoDB </span> 
+                <span style="float:right;">
+                    September 2020 - December 2020
+                </span>
+            </p>
+            <hr style = "margin-top: 0; margin-left: 2em; margin-right: 2em;">
+            <p style = "font-size: 2em; margin: 0; padding-left: 2.2em;"> - Assisted with the set up of the database using JavaScript. </p>
+            <p style = "font-size: 2em; margin: 0; padding-left: 2.2em;"> - Created an endpoint for a User to update their preferences</p>
+            <p style = "font-size: 2em; margin: 0; padding-left: 2.2em;"> - Created an endpoint that allowed User's to search for recipes depending on their inventory. </p>
+        </div> 
+        <div class = Four>
+            <p class = list style="text-align:left; padding: 1cm; font-size: 2em; margin: 0; padding-top: 10px; padding-bottom: 0;">
+                Buffer Overflow Attack <span style = "padding-left: 0.5em; color: salmon;"> C </span> 
+                <span style="float:right;">
+                    May 2021 
+                </span>
+            </p>
+            <hr style = "margin-top: 0; margin-left: 2em; margin-right: 2em;">
+            <p style = "font-size: 2em; margin: 0; padding-left: 2.2em;"> - Exploited programs that were vulnerable to Buffer Overflow Attacks. </p>
+            <p style = "font-size: 2em; margin: 0; padding-left: 2.2em;"> - Used GDB to debug and design attacks. </p>
+            <p style = "font-size: 2em; margin: 0; padding-left: 2.2em;"> - Worked with a partner in designings and discussing ideas before implementing. </p>
+        </div> 
+        <div class = Five>
+            <p class = list style="text-align:left; padding: 1cm; font-size: 2em; margin: 0; padding-top: 10px; padding-bottom: 0;">
+                Password Cracker <span style = "padding-left: 2.4em; color: salmon;"> C </span> 
+                <span style="float:right;">
+                    May 2021 
+                </span>
+            </p>
+            <hr style = "margin-top: 0; margin-left: 2em; margin-right: 2em;">
+            <p style = "font-size: 2em; margin: 0; padding-left: 2.2em;"> - Wrote a program that exploited a password checker algorithm. </p>
+            <p style = "font-size: 2em; margin: 0; padding-left: 2.2em;"> - Utilized protected memory in order to validate each character in the password. </p>
+            <p style = "font-size: 2em; margin: 0; padding-left: 2.2em;"> - Worked with a partner in designings the algorithm before implementing. </p>
+        </div> 
+        <div class = Six>
+            <p class = list style="text-align:left; padding: 1cm; font-size: 2em; margin: 0; padding-top: 10px; padding-bottom: 0;">
+                Calculator <span style = "padding-left: 5.7em; color: salmon;"> Java </span> 
+                <span style="float:right;">
+                    May 2021 
+                </span>
+            </p>
+            <hr style = "margin-top: 0; margin-left: 2em; margin-right: 2em;">
+            <p style = "font-size: 2em; margin: 0; padding-left: 2.2em;"> - Basic calculator that performs addition, subtractions, multiplication, division, exponentiation, and factorial.            </p>
+            <p style = "font-size: 2em; margin: 0; padding-left: 2.2em;"> - Converted inputs to “postfix” notation in order to perform calcuations. </p>
+            <p style = "font-size: 2em; margin: 0; padding-left: 2.2em;"> - Utilize the stack data structure to follow proper arithmetic calculation. </p>
+        </div> 
+    </div>
+    <div class= "contact" style ="padding-top: 1cm;"> 
+        <div class = "about_intro">     
+            <h1 style="font-size: 75px; color:salmon; font-family: sans-serif; text-shadow: 1px 1px 1px black; text-align: center;" > <a id = "target3"> Contacts </a> </h1>
+            <h1 style="font-size: 25px; color:white; font-family: sans-serif; text-shadow: 1px 1px 1px black; text-align: center; padding-top: 1cm;" > <a id = "target"> I would love for the opportunity to speak with you. </a> </h1>
+
         </div>
 
-        <div class="intro-wrapper">
-            <div class="portfolio-items-wrapper">
-                
-                <div class="portfolio-item-wrapper">
-                    <div class="portfolio-img-background" style ="background-image:url(img/jajaja.jpg);"> </div>
-                    <div class="img-text-wrapper">
-                        <div class="logo-wrapper">
-                            <img src = "img/unnamed.jpg" alt="">
-                        </div>
-                        <div class="subtitle">Hi does this work</div>
-                    </div>
-                </div>
-                <div class="portfolio-item-wrapper">
-                    <div class="portfolio-img-background" style ="background-image:url(img/jajaja.jpg);"> </div>
-                    <div class="img-text-wrapper">
-                        <div class="logo-wrapper">
-                            <img src = "img/unnamed.jpg" alt="">
-                        </div>
-                        <div class="subtitle">Hi does this work</div>
-                    </div>
-                </div>
-                <div class="portfolio-item-wrapper">
-                    <div class="portfolio-img-background" style ="background-image:url(img/jajaja.jpg);"> </div>
-                    <div class="img-text-wrapper">
-                        <div class="logo-wrapper">
-                            <img src = "img/unnamed.jpg" alt="">
-                        </div>
-                        <div class="subtitle">Hi does this work</div>
-                    </div>
-                </div>
-
-            </div>  
-
-
+        <div class = "socPar" style="padding-top: 1em;">
+            <div class = "res"> 
+                <h1 style = "color:salmon; font-family: sans-serif; text-shadow: 1px 1px 1px black;" > LinkedIn</h1>
+                <button class="btn1" onclick=" window.open('https://www.linkedin.com/in/kcluong/','_blank')"><i class="fab fa-linkedin"></i></button>
+            </div>
+            <div class = "hir">
+                <h1 style = "color:salmon; font-family: sans-serif; text-shadow: 1px 1px 1px black;" > Email </h1>
+                <button class="btn1" onclick="window.location.href='mailto:kevin.luong4@gmail.com?subject=Message From Website'"><i class="fas fa-envelope"></i></button>
+            </div>
         </div>
     </div>
-
-    <!-- <h1>Kevin Luong <br/> rejected software engineer applicant </h1>
-    <h1>Ex-google, Ex-amazon, Ex-everythign applicant</h1> -->
 </body>
 </html>
